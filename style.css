@@ -1,0 +1,98 @@
+#scram {
+    position: relative;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#container {
+    height: 500px;
+    width: 1000px;
+    font-family: "Arial";
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+    display: block;
+}
+
+#timeList {
+    margin: 0;
+    height: 230px;
+    /* margin-left: 310px; */
+    /* overflow-y: auto; */
+    padding-top: 5px;
+}
+
+#timeOut {
+    font-size: 8em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 95px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+#stats {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    color: aliceblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-40deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#stats a {
+    color: rgb(220, 221, 169);
+    font-weight: 2px;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+#stats span {
+    text-align: center;
+}
+
+#danhsach {
+    position: absolute;
+    text-align: center;
+    font-size: 23px;
+    align-items: center;
+    bottom: 20%;
+    box-sizing: border-box;
+    display: block;
+    flex-wrap: wrap;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5%;
+}
+
+.red {
+    color: rgb(209, 0, 0);
+}
